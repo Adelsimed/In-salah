@@ -36,15 +36,13 @@ font-family: 'Roboto', sans-serif;
 
 nav{
     flex: 1;
-    text-align: right;
-    
+    text-align: right;   
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
-    
+    margin-left: 60px;   
 } 
 
 nav ul li a{
@@ -109,6 +107,7 @@ button{
     background-size: cover;
     margin-left: 30px;
     transition: 0.5s;
+    
 }
 
 .card:hover{
@@ -131,7 +130,47 @@ nav ul li a:hover{
 }
 
 #title-p2{
+    padding-top: 100px;
     color: black;
+    text-align: center;
+    font-size: 50px;
 }
 
+.container1{
+    width: 100%;
+    height: 100vh;
+    background-color:#EDC9AF;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    background-color:#7e4e2c;
+}
+
+.cards{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.cardss{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.imgg{
+    border-radius: 10px;
+    border: solid 2px black;
+}
+
+.para{
+    font-size: medium;
+    color: #000;
+    margin-top: 10px;
+}
 
