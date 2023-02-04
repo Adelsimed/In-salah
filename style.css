@@ -161,12 +161,17 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
+    cursor: pointer;
     
+}
+
+.imgg:hover{
+    border: red solid 3px;
 }
 
 .imgg{
     border-radius: 10px;
-    border: solid 2px black;
+    border: solid 3px black;
 }
 
 .para{
@@ -187,6 +192,7 @@ nav ul li a:hover{
     font-size: 36px;
     font-weight: bold;
     text-align: end;
+    color:  #322719;
 }
 
 .container3{
@@ -204,11 +210,23 @@ nav ul li a:hover{
 }
 
 .h3-c3{
-    color: #786D5F;
+    color:#322719;
     font-size: 30px;
     
 }
 .p3-c3{
     color: p3-c3;
     font-size:17px ;
+}
+
+.cr{
+    text-align: center;
+    color:#322719;
+    padding: 20px;
+}
+
+.cr-bar{
+    height: 55px;
+    
+    background-color:#7e4e2c;;
 }
